@@ -1,0 +1,273 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.Big-con{
+  display: flex;
+  flex-direction: column;
+}
+
+ 
+ #headers img{
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 14px;
+  
+ }
+ .sm-con{
+  display: flex;
+  
+  background: rgba(238, 230, 230, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 5px;
+  
+
+
+ }
+
+
+.iphone img{
+height: 700px;
+width: 700px;
+
+}
+
+
+.text{
+  height: 485px;
+  width: 356px;
+  margin-top: 150px;
+  padding: 30px;
+  margin-left: 60px;
+}
+h1{
+  font-family: Poppins;
+font-size: 76px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+p{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+button{
+
+  background-color: black;
+  color: aliceblue;
+  padding: 3px;
+  margin-top: 5px;
+}
+input{
+  padding: 3px;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+ h2{
+   padding-left: 20px;
+ }
+   .features2{
+    
+    height: 700px;
+    display: flex;
+align-items: center;
+
+
+  } 
+
+#vec{
+  width: 380px;
+  height: 510px;
+  position: absolute;
+  left: 50px;
+  margin-top: 20px;
+  
+  
+  
+  
+}
+ #torr{
+  width:480px;
+  height: 540px;
+  position: absolute;
+  left: 120px;
+}
+#frame{
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  left: 80px;
+  margin-top: 60px;
+
+  
+} 
+#read{
+  position: absolute;
+  width:250px ;
+  height: 80px;
+  right: 390px;
+  font-size: 60px;
+
+  text-align: right;
+}
+
+.third{
+  
+  height: 400px;
+  background-color: rgba(238, 230, 230, 0.5);
+  backdrop-filter: blur(2px); ;
+  display: flex;
+  align-items: center;
+}
+.upper{
+  width: 315px;
+  height: 100px;
+  padding: 30px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: 45px;
+
+}
+
+#moon1{
+      width: 300px;
+      height: 490px;
+      position: absolute;
+      top: -50px;
+      right: -1px;
+}
+#moon2{
+  width:300px;
+  height:420px;
+  position: absolute;
+  top: 40px;
+  right: -1px;
+}
+#stars{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 40px;
+  right: -1px;
+
+}
+.forth{
+  
+  height: 650px;
+  display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+#onee{
+  width: 300px;
+  height: 400px;
+position: absolute;
+left: 0px;
+}
+#twoo{
+  width: 370px;
+  height: 450px;
+  position: absolute;
+  left: -10px;
+
+}
+#mapp{
+  width: 300px;
+  height: 550px;
+  position: absolute;
+  left: 190px;
+
+
+}
+#loca{
+  width: 320px;
+  height: 150px;
+  position: absolute;
+  font-size: 51px;
+  
+  left: 490px;
+  text-align: right;
+  
+
+}
+.soon{
+  
+  height: 400px;
+  background-color:  #292D32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.funn{
+  display: flex;
+  color: white;
+  font-size: 30px;
+  gap: 10px;
+  
+}
+#coming{
+  color: white;
+  font-size: 45px;
+}
+.numbers{
+  box-sizing: border-box;
+
+
+width: 70px;
+height:80px;
+
+border: 3px solid #FFFFFF;
+border-radius: 5px;
+text-align: center;
+padding-top: 15px;
+
+}
+.marks{
+  
+  font-size: 60px;
+}
+#MyMail{
+  border: 1px solid red;
+}
+#butter{
+  background-color: red;
+}
+.foot{
+  
+  height: 200px;
+  background-color: red;
+}
+#tour{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.makeUP{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 17px;
+}
+.socials{
+  display: flex;
+  gap: 25px;
+}
+.helping{
+  color: #FFFFFF;
+  font-size: small;
+}
